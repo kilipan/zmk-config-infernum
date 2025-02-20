@@ -150,7 +150,7 @@ combo_##NAME { \
                 &none          &kp C          &kp G          &kp D          &kp C_VOL_DN                 &kp C_VOL_UP   &kp M          &comsem        &dotcol        &none
                                               &none          &my_lt NUM SQT &my_lt NAV SPACE &kp C_MUTE  &my_lt SYM E   &my_lt FUN TAB &none
             >;
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
         numbers {
             bindings = <
@@ -159,6 +159,7 @@ combo_##NAME { \
                 &none          &kp N9         &kp N8         &kp N7         &none                        &none          &kp N1         &kp N2         &kp N3         &none
                                               &trans         &trans         &trans           &trans      &kp E          &kp N0         &none
             >;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
         navigation {
             bindings = <
@@ -167,6 +168,7 @@ combo_##NAME { \
                 &none          &kp C_AC_COPY  &kp C_AC_CUT   &kp C_AC_PASTE &none                        &none          &kp HOME       &kp C_MUTE     &kp END        &none
                                               &none          &trans         &trans           &trans      &kp C_VOL_DN   &kp C_VOL_UP   &none
             >;
+            sensor-bindings = <&inc_dec_kp UP DOWN>;
         };
         symbols {
             bindings = <
@@ -175,6 +177,7 @@ combo_##NAME { \
                 &none          &kp GRAVE      &kp DQT        &kp UNDERSCORE &none                        &none          &kp BACKSLASH  &kp PIPE       &kp EQUAL      &none
                                               &none          &kp TILDE      &trans           &trans      &trans         &trans         &none
             >;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
         function {
             bindings = <
@@ -183,6 +186,7 @@ combo_##NAME { \
                 &none          &kp F9         &kp F8         &kp F7         &none                        &none          &kp F1         &kp F2         &kp F3         &none
                                               &none          &none          &trans           &trans      &trans         &trans         &none
             >;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
     };
