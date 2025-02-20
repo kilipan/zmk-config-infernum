@@ -4,6 +4,6 @@
     status = "okay";
 };
 
-// &bottom_encoder {
-//     status = "okay";
-// };
+&bottom_encoder {
+    status = "okay";
+};
