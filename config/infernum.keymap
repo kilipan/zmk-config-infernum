@@ -150,7 +150,7 @@ combo_##NAME { \
                 &none          &kp C          &kp G          &kp D          &kp C_VOL_DN                 &kp C_VOL_UP   &kp M          &comsem        &dotcol        &none
                                               &none          &my_lt NUM SQT &my_lt NAV SPACE &kp C_MUTE  &my_lt SYM E   &my_lt FUN TAB &none
             >;
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN>
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
         numbers {
             bindings = <
